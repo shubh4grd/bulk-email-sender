@@ -1,0 +1,106 @@
+/* style for whole page */
+body {
+  font-family: "Righteous", cursive;
+  text-align: center;
+}
+/* input field */
+.container {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* main title styles */
+.topic {
+  color: #e1e9f0;
+  font-size: 80px !important;
+  text-align: center;
+}
+/* email addresses container */
+.tag-container {
+  /* border: 2px solid #e1e9f0; */
+  padding: 10px;
+  border-radius: 45px;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* email address tags */
+.tag-container .tag {
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  background: #e1e9f0;
+  cursor: default;
+}
+/* style change on hover  */
+.tag-container .tag:hover {
+  background: #e1e9f0;
+}
+
+.tag-container input {
+  flex: 1;
+  font-size: 16px;
+  padding: 5px;
+  outline: none;
+  border: 0;
+  background: none;
+}
+/* cross icon for removing email */
+.material-icons {
+  padding: 0 0 0.1rem 1rem;
+  font-style: normal;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* proceed button */
+.btn {
+  margin: 2rem;
+  background: #e1e9f0;
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 2px;
+  box-shadow: rgb(18, 15, 196) 1.95px 1.95px 2.6px;
+}
+
+.btn:hover {
+  color: #e1e9f0;
+  background: rgb(18, 15, 196);
+  box-shadow: rgb(13, 13, 14) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+/* message box styles */
+.success,
+.error {
+  color: #e1e9f0;
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  width: max-content;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.error {
+  border: 1px solid rgb(240, 124, 124);
+  background: rgb(255, 61, 47);
+}
+.success {
+  border: 1px solid rgb(124, 238, 124);
+  background: green;
+}
+.footer{
+  color: #e1e9f0;
+    bottom: 0;
+    margin: 0 0 1rem 1rem;
+    position: fixed;
+}
